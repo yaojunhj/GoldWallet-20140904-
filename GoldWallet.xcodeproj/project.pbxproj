@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6799F61944637700ADCACA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6799F51944637700ADCACA /* UIKit.framework */; };
+		9B6799F81944637700ADCACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6799F71944637700ADCACA /* Foundation.framework */; };
+		9B6799FA1944637700ADCACA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6799F91944637700ADCACA /* CoreGraphics.framework */; };
+		9B679A001944637700ADCACA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B6799FE1944637700ADCACA /* InfoPlist.strings */; };
+		9B679A021944637700ADCACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B679A011944637700ADCACA /* main.m */; };
+		9B679A061944637700ADCACA /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B679A051944637700ADCACA /* BIDAppDelegate.m */; };
+		9B679A081944637700ADCACA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B679A071944637700ADCACA /* Default.png */; };
+		9B679A0A1944637700ADCACA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B679A091944637700ADCACA /* Default@2x.png */; };
+		9B679A0C1944637700ADCACA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B679A0B1944637700ADCACA /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B6799F21944637700ADCACA /* GoldWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6799F51944637700ADCACA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B6799F71944637700ADCACA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B6799F91944637700ADCACA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B6799FD1944637700ADCACA /* GoldWallet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoldWallet-Info.plist"; sourceTree = "<group>"; };
+		9B6799FF1944637700ADCACA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B679A011944637700ADCACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B679A031944637700ADCACA /* GoldWallet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoldWallet-Prefix.pch"; sourceTree = "<group>"; };
+		9B679A041944637700ADCACA /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		9B679A051944637700ADCACA /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		9B679A071944637700ADCACA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B679A091944637700ADCACA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B679A0B1944637700ADCACA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6799EF1944637700ADCACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6799F61944637700ADCACA /* UIKit.framework in Frameworks */,
+				9B6799F81944637700ADCACA /* Foundation.framework in Frameworks */,
+				9B6799FA1944637700ADCACA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6799E91944637700ADCACA = {
+			isa = PBXGroup;
+			children = (
+				9B6799FB1944637700ADCACA /* GoldWallet */,
+				9B6799F41944637700ADCACA /* Frameworks */,
+				9B6799F31944637700ADCACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6799F31944637700ADCACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6799F21944637700ADCACA /* GoldWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6799F41944637700ADCACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6799F51944637700ADCACA /* UIKit.framework */,
+				9B6799F71944637700ADCACA /* Foundation.framework */,
+				9B6799F91944637700ADCACA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B6799FB1944637700ADCACA /* GoldWallet */ = {
+			isa = PBXGroup;
+			children = (
+				9B679A041944637700ADCACA /* BIDAppDelegate.h */,
+				9B679A051944637700ADCACA /* BIDAppDelegate.m */,
+				9B6799FC1944637700ADCACA /* Supporting Files */,
+			);
+			path = GoldWallet;
+			sourceTree = "<group>";
+		};
+		9B6799FC1944637700ADCACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B6799FD1944637700ADCACA /* GoldWallet-Info.plist */,
+				9B6799FE1944637700ADCACA /* InfoPlist.strings */,
+				9B679A011944637700ADCACA /* main.m */,
+				9B679A031944637700ADCACA /* GoldWallet-Prefix.pch */,
+				9B679A071944637700ADCACA /* Default.png */,
+				9B679A091944637700ADCACA /* Default@2x.png */,
+				9B679A0B1944637700ADCACA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6799F11944637700ADCACA /* GoldWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B679A0F1944637700ADCACA /* Build configuration list for PBXNativeTarget "GoldWallet" */;
+			buildPhases = (
+				9B6799EE1944637700ADCACA /* Sources */,
+				9B6799EF1944637700ADCACA /* Frameworks */,
+				9B6799F01944637700ADCACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldWallet;
+			productName = GoldWallet;
+			productReference = 9B6799F21944637700ADCACA /* GoldWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6799EA1944637700ADCACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JinDing;
+			};
+			buildConfigurationList = 9B6799ED1944637700ADCACA /* Build configuration list for PBXProject "GoldWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B6799E91944637700ADCACA;
+			productRefGroup = 9B6799F31944637700ADCACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6799F11944637700ADCACA /* GoldWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6799F01944637700ADCACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B679A001944637700ADCACA /* InfoPlist.strings in Resources */,
+				9B679A081944637700ADCACA /* Default.png in Resources */,
+				9B679A0A1944637700ADCACA /* Default@2x.png in Resources */,
+				9B679A0C1944637700ADCACA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6799EE1944637700ADCACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B679A021944637700ADCACA /* main.m in Sources */,
+				9B679A061944637700ADCACA /* BIDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B6799FE1944637700ADCACA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6799FF1944637700ADCACA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B679A0D1944637700ADCACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B679A0E1944637700ADCACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B679A101944637700ADCACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoldWallet/GoldWallet-Prefix.pch";
+				INFOPLIST_FILE = "GoldWallet/GoldWallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B679A111944637700ADCACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoldWallet/GoldWallet-Prefix.pch";
+				INFOPLIST_FILE = "GoldWallet/GoldWallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6799ED1944637700ADCACA /* Build configuration list for PBXProject "GoldWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B679A0D1944637700ADCACA /* Debug */,
+				9B679A0E1944637700ADCACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B679A0F1944637700ADCACA /* Build configuration list for PBXNativeTarget "GoldWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B679A101944637700ADCACA /* Debug */,
+				9B679A111944637700ADCACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6799EA1944637700ADCACA /* Project object */;
+}
